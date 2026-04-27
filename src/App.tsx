@@ -311,7 +311,7 @@ function Projects() {
   );
 }
 
-function Experience() {
+function ExperienceSection()() {
   const { ref, visible } = useIntersection();
   return (
     <section className="section section--alt" id="experience" ref={ref}>
@@ -416,7 +416,7 @@ export default function App() {
         <About />
         <Skills />
         <Projects />
-        <Experience />
+        <ExperienceSection />
         <Contact />
       </main>
       <Footer />
