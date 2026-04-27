@@ -311,7 +311,7 @@ function Projects() {
   );
 }
 
-function ExperienceSection()() {
+function ExperienceSection() {
   const { ref, visible } = useIntersection();
   return (
     <section className="section section--alt" id="experience" ref={ref}>
